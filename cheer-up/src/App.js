@@ -10,6 +10,7 @@ const Header = () => {
     </header>
   )
 }
+
 const Main = () => {
   return (
     <main>
@@ -17,6 +18,7 @@ const Main = () => {
     </main>
   )
 }
+
 function App() {
   return (
     <div className="App">

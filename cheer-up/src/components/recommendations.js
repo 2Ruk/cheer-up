@@ -7,7 +7,7 @@ import Song from './song';
 const Recommendations = () => {
   const [quote, setQuote] = useState('');
   const [song, setSong] = useState({});
-
+  
   const randomSelect = (list) => {
     return list[Math.floor(Math.random() * list.length)]
   }
