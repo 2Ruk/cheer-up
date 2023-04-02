@@ -37,12 +37,20 @@ const Recommendations = () => {
     }
   }, []);
 
-
-
   useEffect(() => {
     const intervalId = setInterval(() => {
-      const randomQuote = randomSelect(quoteList);
+      let randomQuote = randomSelect(quoteList);
       setQuote(randomQuote);
+
+      while(quote){
+        if(quote === randomQuote){
+          randomQuote = randomSelect(quoteList);
+          setQuote(randomQuote);
+        }else{
+          break;
+        }
+      }
+
     }, 5000);
     return () => clearInterval(intervalId);
   }, []);
@@ -60,8 +68,6 @@ const Recommendations = () => {
             <ArrowRight />
           </IconButton>
         </div>
-
-    
       </div>
     </div>
   );
