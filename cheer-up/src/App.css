@@ -55,11 +55,38 @@ main {
 
 .quote-song-container {
   justify-content: flex-start;
+  min-width: 60rem;
+  max-width: 60rem;
 }
 
 .comments-section {
   justify-content: flex-end;
   
+}
+.song-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.song-button {
+  background: #EFEFEF !important;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+
+
+.song-button > svg {
+  font-size: 2rem;
+  color: #333333;
 }
 
 .fade-in-box {
@@ -101,3 +128,4 @@ main {
         opacity: 1;
     }
 }
+
