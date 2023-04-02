@@ -9,6 +9,16 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+@font-face {
+  font-family: 'KyoboHandwriting2020A';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/KyoboHandwriting2020A.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'KyoboHandwriting2020A', sans-serif;
+}
 
 .App-logo {
   height: 40vmin;
@@ -91,10 +101,16 @@ main {
 
 .fade-in-box {
   animation: fadein 1s;
-  -moz-animation: fadein 3s; /* Firefox */
-  -webkit-animation: fadein 3s; /* Safari and Chrome */
-  -o-animation: fadein 3s; /* Opera */
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
 }
+
+
+p.shadow  {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
 @keyframes fadein {
     from {
         opacity: 0;
