@@ -22,7 +22,7 @@ export const recommendYoutubeList = [
     {
       title: ' 괜찮아, 다 잘될거야. 힘들고 지친 당신을 위로해주는 노래🎵',
       youtuber: 'IsFp',
-      videoId: 'uGa2cN1N5'
+      videoId: 'uGa2cN1N5-Y'
     },
     {
       title: '꿈속에서는 울지 말아요 | 새벽 인디',
