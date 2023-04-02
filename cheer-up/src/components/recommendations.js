@@ -12,7 +12,9 @@ const Recommendations = () => {
   const [song, setSong] = useState({});
   
   const randomSelect = (list) => {
-    return list[Math.floor(Math.random() * list.length)]
+    const randomIndex = Math.floor(Math.random() * list.length);
+    console.log(randomIndex)
+    return list[randomIndex]
   }
 
   const handlePrevSong = () => {
@@ -40,18 +42,11 @@ const Recommendations = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       let randomQuote = randomSelect(quoteList);
-      setQuote(randomQuote);
-
-      while(quote){
-        if(quote === randomQuote){
-          randomQuote = randomSelect(quoteList);
-          setQuote(randomQuote);
-        }else{
-          break;
-        }
+      while (randomQuote === quote) {
+        randomQuote = randomSelect(quoteList);
       }
-
-    }, 5000);
+      setQuote(randomQuote);    
+    }, 10000);
     return () => clearInterval(intervalId);
   }, []);
 
