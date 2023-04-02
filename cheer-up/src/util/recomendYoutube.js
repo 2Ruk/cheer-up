@@ -24,13 +24,6 @@ export const recommendYoutubeList = [
       youtuber: 'IsFp',
       videoId: 'uGa2cN1N5'
     },
-
-    {
-      title: '지치고 우울할 때 편안하게 해주는 노래 30곡',
-      youtuber: '녹차호떡의 음악공방',
-      videoId: 'd41r5AAKoXA'
-    },
-
     {
       title: '꿈속에서는 울지 말아요 | 새벽 인디',
       youtuber: '소심 ᴘʟᴀʏʟɪsᴛ',
