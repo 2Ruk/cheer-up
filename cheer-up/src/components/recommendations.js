@@ -23,7 +23,7 @@ const Recommendations = () => {
     const intervalId = setInterval(() => {
       const randomQuote = randomSelect(quoteList);
       setQuote(randomQuote);
-    }, 20000);
+    }, 5000);
     return () => clearInterval(intervalId);
   }, []);
 
