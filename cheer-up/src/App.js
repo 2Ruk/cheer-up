@@ -20,6 +20,9 @@ const Main = () => {
 }
 
 function App() {
+  console.log('오늘도 열심히 살았습니다, 지친 당신을 위한 말과 노래를 추천해드립니다. ');
+  console.log('Twitter: @isValidUserId')
+  
   return (
     <div className="App">
       <Header/>
