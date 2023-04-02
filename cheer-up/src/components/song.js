@@ -15,8 +15,8 @@ const Song = ({ title, youtuber,videoId }) => (
         ></iframe>
       </div>
     )}
-    <p>{title} </p>
-    <small>{youtuber} 님의 리스트</small>
+    {/* <p>{title} </p> */}
+    {/* <small>{youtuber} 님의 리스트</small> */}
   </div>
 );
 
