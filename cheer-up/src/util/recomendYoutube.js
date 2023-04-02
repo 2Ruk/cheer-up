@@ -63,7 +63,7 @@ export const recommendYoutubeList = [
     {
       title:'우울할 때 들으면 더 우울해지는 노래ㅣplaylist',
       youtuber: 'outoff studio / 아웃오프 스튜디오',
-      videoId: 'https://youtu.be/OirSByC9SNs'
+      videoId: 'OirSByC9SNs'
     },
     {
       title:'[Playlist] 안 그래도 울고 싶은데 뺨 때리는 노래 모음| 새벽감성 발라드',
